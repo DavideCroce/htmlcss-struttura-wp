@@ -67,7 +67,7 @@ footer{
 
 #sideone{
     width: calc(25% - 20px);
-    height: 480px;
+    height: 460px;
     background-color: rgb(160, 197, 235);
     display: inline-block;
     
@@ -76,7 +76,7 @@ footer{
 
 #central{
     width: 50%;
-    height: 480px;
+    height: 460px;
     background-color: rgb(160, 197, 235);
     display: inline-block;
     margin-left: 20px;
@@ -85,7 +85,11 @@ footer{
 
 #sidetwo{
     width: calc(25% - 20px);
-    height: 480px;
+    height: 460px;
     background-color: rgb(160, 197, 235);
     display: inline-block;
+}
+
+#sideone, #sidetwo, #central{
+    margin-top: 10px;
 }
